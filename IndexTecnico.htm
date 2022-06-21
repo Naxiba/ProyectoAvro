@@ -9,13 +9,13 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Index-boss-Arriendo</title>
+    <title>Index-Tecnico</title>
   </head>
   <body>
     <!-- Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="Index.htm">Inicio</a>
+          <a class="navbar-brand" href="IndexTecnico.htm">Inicio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -23,14 +23,11 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Contructora
+                    Labor
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="Arriendo.html">Arriendo</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="Cambio.html">Cambio</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="Termino.html">Termino</a></li>
+                    <li><a class="dropdown-item" href="Mantenimiento.html">Mantenimiento</a></li>
+                    
                   </ul>
                 </li>
   
@@ -39,18 +36,10 @@
                     Herramientas
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="Inventario.html">Inventario</a></li>
+                    <li><a class="dropdown-item" href="InventarioTecnico.html">Inventario</a></li>
                   </ul>
                 </li>
   
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Documentos
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="Guias de despacho.html">Guia de despacho.</a></li>
-                  </ul>
-                </li>
               </ul>
               <span class="material-icons">
                 account_circle
@@ -58,98 +47,25 @@
             <span class="navbar-text">
               Bienvenido **********
             </span>
-            
-            <a class="navbar-brand pl-2 " href="Login.html">Cerrar sesion</a>
-          
+            <span>
+              <a class="navbar-brand pl-2 " href="Login.html">Cerrar sesion</a>
+            </span>
           </div>
         </div>
       </nav>
-    <!-- form -->
-      <div class="p-5 bg-secondary">
-      <div class="container bg-light p-5">
-             <div class="form-row">
-                 <div class="form-group col-md-12 text-center">
-                    <span class="material-icons display-1">
-                        shopping_cart
-                    </span>
-                    <h2>Arriendo</h2>
-                 </div>
-             </div>
-             <div class=" container text-center" style="text-align: center;">
-              <table style="margin: auto;">
-                    <tr>
-                    <td class="p-2">
-
-                      <div class="form-row p-2">
-                        <div class="form-group col-md-12">
-                            <label class="title">Rut empresa</label>
-                            <input type="text" class="form-control" name="RutEmp">
-                        </div>
-                    </td>
-                       <td class="p-2" >
-                      <div class="form-group col-md-12">
-                              <label class="title" >Obra Contructora</label>
-                              <select class="form-select" id="specificSizeSelect">
-                                <option selected>...</option>
-                                <option value="1">A</option>
-                                <option value="2">B</option>
-                                <option value="3">C</option>
-                                <option value="4">D</option>
-                              </select>
-                          </div>
-                        </td>
-                        <td class="p-2">
-                          <div class="form-group col-md-12">
-                              <label class="title" >Contacto</label>
-                              <select class="form-select" id="specificSizeSelect">
-                                <option selected>...</option>
-                                <option value="1">Edgar Leal</option>
-                                <option value="2">Franco Casanova</option>
-                                <option value="3">Kevin </option>
-                              </select>
-                          </div>
-                        </td>
-              
-                  <td class="p-2">
-                    <div class="form-group col-md-12">
-                        <label class="title" >Tipo de documento</label>
-                        <select class="form-select" id="specificSizeSelect">
-                          <option selected>...</option>
-                          <option value="1">Factura</option>
-                          <option value="2">Guia de despacho</option>
-                        </select>
-                      </div>
-                 </td>
-                
-              </tr>   
-            </table>
-          </div>
-          <table style="margin: auto;">
-            <tr>
-              <td>
-              <div class="container p-5">
-                  <div class="form-group col-md-12">
-                      <label class="title" >Tipo de Herramientas</label>
-                      <select class="form-select" id="specificSizeSelect">
-                        <option selected>...</option>
-                        <option value="1">Cincelado</option>
-                        <option value="2">Demoledor</option>
-                      </select>
-                  </div>
-              </div>
-            </td>
-          </tr>
-            </table>
-            <div class="container p-5">
-              <div class="d-grid gap-2 col-6 mx-auto">
-                  <button class="btn btn-secondary" type="button">Enviar</button>
-                  
-                </div>
-          </div> 
-          </div>
-         </div>
-        </div>
-            
+    <!-- Img inicio -->
+         
+            <div class=" container-fluid p-5 text-center ">
+                <img src="img/Logistica.webp" alt="account_circle" class="img-circle">
+            </div>
+            <div class="container-fluid container-md text-center p-5 pt-4">
+               <h1>Bienvenido a su ERP </h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Laboriosam reprehenderit autem molestias, 
+                   repellat possimus exercitationem delectus ut quos esse eius unde accusantium, 
+                   velit hic veritatis quas quod perferendis sequi incidunt voluptas magnam 
+                   consectetur vel totam! Neque earum accusamus voluptatibus obcaecati.</p>
+            </div>
     <!-- footer -->
             <div class="container-fluid align-self-end">
                 <div class="row p-5 pb-2 bg-dark text-white">
